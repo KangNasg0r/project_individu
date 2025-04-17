@@ -85,6 +85,7 @@ private Connection conn = new koneksi().connect();
     private void initComponents() {
 
         jk_kasir = new javax.swing.ButtonGroup();
+        buttonGroup1 = new javax.swing.ButtonGroup();
         rlaki = new javax.swing.JRadioButton();
         rperempuan = new javax.swing.JRadioButton();
         telp_kasir = new javax.swing.JTextField();
@@ -292,7 +293,7 @@ private Connection conn = new koneksi().connect();
                             .addComponent(nama_kasir)
                             .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(agama_kasir, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 54, Short.MAX_VALUE)
+                        .addGap(0, 70, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(password_kasir, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -312,7 +313,7 @@ private Connection conn = new koneksi().connect();
                                         .addComponent(bbatal)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(bkeluar)))
-                                .addGap(0, 50, Short.MAX_VALUE))))
+                                .addGap(0, 66, Short.MAX_VALUE))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -611,6 +612,7 @@ private Connection conn = new koneksi().connect();
     private javax.swing.JButton bkeluar;
     private javax.swing.JButton bsimpan;
     private javax.swing.JButton bubah;
+    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JTextField cari_text;
     private javax.swing.JTextField id_kasir;
     private javax.swing.JLabel jLabel1;

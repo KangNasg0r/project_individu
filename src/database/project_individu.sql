@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 17 Apr 2025 pada 06.13
+-- Waktu pembuatan: 17 Apr 2025 pada 19.38
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -42,8 +42,7 @@ CREATE TABLE `tb_kasir` (
 --
 
 INSERT INTO `tb_kasir` (`id_kasir`, `nama_kasir`, `jk_kasir`, `telp_kasir`, `agama_kasir`, `alamat_kasir`, `password_kasir`) VALUES
-('K01', 'Ahmad Nur Latif Prayogakj', 'Laki-Laki', '081949452687', 'Islam', 'Jakarta Selatan', '123'),
-('K011', 'Ahmad Nur Latif Prayogakj', 'Laki-Laki', '081949452687', 'Islam', 'bandung', '123');
+('K01', 'Yoga', 'Laki-Laki', '0812341234', 'Islam', 'Jakarta,Indonesia', '11111');
 
 -- --------------------------------------------------------
 
@@ -64,8 +63,7 @@ CREATE TABLE `tb_pelanggan` (
 --
 
 INSERT INTO `tb_pelanggan` (`id_pel`, `nama_pel`, `jk_pel`, `telp_pel`, `alamat_pel`) VALUES
-('P01', 'YOGA', 'Laki-Laki', '08111', 'Bandunga'),
-('P011', 'YOGA', 'Laki-Laki', '08111', 'Bandung');
+('P01', 'Mas Elon', 'Laki-Laki', '08123123', 'Garut');
 
 --
 -- Indexes for dumped tables

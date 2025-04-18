@@ -378,13 +378,13 @@ private Connection conn = new koneksi().connect();
     }
     private void table_kasirMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_table_kasirMouseClicked
         int bar = table_kasir.getSelectedRow();
-        String a = table_kasir.getValueAt(bar, 0).toString();
-        String b = table_kasir.getValueAt(bar, 1).toString();
-        String c = table_kasir.getValueAt(bar, 2).toString();
-        String d = table_kasir.getValueAt(bar, 3).toString();
-        String e = table_kasir.getValueAt(bar, 4).toString();
-        String f = table_kasir.getValueAt(bar, 5).toString();
-        String g = table_kasir.getValueAt(bar, 6).toString();
+        String a = tabmode.getValueAt(bar, 0).toString();
+        String b = tabmode.getValueAt(bar, 1).toString();
+        String c = tabmode.getValueAt(bar, 2).toString();
+        String d = tabmode.getValueAt(bar, 3).toString();
+        String e = tabmode.getValueAt(bar, 4).toString();
+        String f = tabmode.getValueAt(bar, 5).toString();
+        String g = tabmode.getValueAt(bar, 6).toString();
 
         id_kasir.setText(a);
         nama_kasir.setText(b);

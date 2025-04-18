@@ -523,11 +523,11 @@ public class master_pelanggan extends javax.swing.JFrame {
 
     private void table_pelangganMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_table_pelangganMouseClicked
     int bar = table_pelanggan.getSelectedRow();
-        String a = table_pelanggan.getValueAt(bar, 0).toString();
-        String b = table_pelanggan.getValueAt(bar, 1).toString();
-        String c = table_pelanggan.getValueAt(bar, 2).toString();
-        String d = table_pelanggan.getValueAt(bar, 3).toString();
-        String e = table_pelanggan.getValueAt(bar, 4).toString();
+        String a = tabmode.getValueAt(bar, 0).toString();
+        String b = tabmode.getValueAt(bar, 1).toString();
+        String c = tabmode.getValueAt(bar, 2).toString();
+        String d = tabmode.getValueAt(bar, 3).toString();
+        String e = tabmode.getValueAt(bar, 4).toString();
 
         id_pel.setText(a);
         nama_pel.setText(b);

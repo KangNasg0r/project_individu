@@ -33,13 +33,13 @@ private Connection conn = new koneksi().connect();
     protected void kosong() {
         kd_barang.setText("");
         nama_barang.setText("");
-        jenis_barang.setSelectedItem(0);
+        jenis_barang.setSelectedIndex(0);
         harga_beli.setText("");
         harga_jual.setText("");
     }
 
     protected void datatable() {
-        Object[] Baris = {"Kode Barang", "Nama", "Jenis Barang", "Harga Beli", "Harga Jual"};
+        Object[] Baris = {"Kode Barang", "Nama", "Jenis Barang", "Harga Beli (Rp)", "Harga Jual (Rp)"};
         tabmode = new DefaultTableModel(null, Baris);
         String cariitem = cari_text.getText();
         try {

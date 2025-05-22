@@ -35,12 +35,14 @@ public class menu_utama extends javax.swing.JFrame {
         m_kasir = new javax.swing.JMenuItem();
         m_pelanggan = new javax.swing.JMenuItem();
         master_barang = new javax.swing.JMenuItem();
+        nota = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
 
+        jLabel2.setBackground(new java.awt.Color(153, 153, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/kasir1.png"))); // NOI18N
 
@@ -85,6 +87,15 @@ public class menu_utama extends javax.swing.JFrame {
         });
         jMenu1.add(master_barang);
 
+        nota.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        nota.setText("Nota");
+        nota.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                notaActionPerformed(evt);
+            }
+        });
+        jMenu1.add(nota);
+
         jMenuBar1.add(jMenu1);
 
         setJMenuBar(jMenuBar1);
@@ -120,6 +131,12 @@ public class menu_utama extends javax.swing.JFrame {
         mb.setVisible(true);
         mb.setLocationRelativeTo(null);
     }//GEN-LAST:event_master_barangActionPerformed
+
+    private void notaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notaActionPerformed
+     nota mb = new nota();
+        mb.setVisible(true);
+        mb.setLocationRelativeTo(null);
+    }//GEN-LAST:event_notaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -166,5 +183,6 @@ public class menu_utama extends javax.swing.JFrame {
     private javax.swing.JMenuItem m_kasir;
     private javax.swing.JMenuItem m_pelanggan;
     private javax.swing.JMenuItem master_barang;
+    private javax.swing.JMenuItem nota;
     // End of variables declaration//GEN-END:variables
 }

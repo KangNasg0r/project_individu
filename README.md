@@ -6,3 +6,5 @@
 <img src="tutorial/master_kasir.png" width="50%"></img><br>
 3.Menu Pelanggan<br>
 <img src="tutorial/master_pelanggan.png" width="50%"></img><br>
+4.Menu Barang<br>
+<img src="tutorial/barang.png" width="50%"></img><br>

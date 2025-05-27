@@ -36,7 +36,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="99" type="rgb"/>
+          <Color blue="0" green="66" red="cc" type="rgb"/>
         </Property>
       </Properties>
 
@@ -64,7 +64,7 @@
                               <Component id="txtNota" max="32767" attributes="0"/>
                               <Component id="jlabelID" min="-2" pref="231" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="156" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="jLabel4" pref="75" max="32767" attributes="0"/>
                               <Component id="jLabel5" max="32767" attributes="0"/>
@@ -79,33 +79,30 @@
                               <Component id="jtgl" pref="210" max="32767" attributes="0"/>
                               <Component id="jlabelNamaKasir" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jPanel4" max="32767" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="bsimpan" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                  <Component id="bbatal" min="-2" pref="78" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                                  <Component id="bkeluar" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
-                                  <Component id="jLabel15" max="32767" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="txttotal" min="-2" pref="143" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="bsimpan" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          <Component id="bbatal" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="bkeluar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="241" max="-2" attributes="0"/>
+                          <Component id="jLabel15" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txttotal" min="-2" pref="143" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -119,16 +116,10 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel33" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jtgl" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -138,7 +129,7 @@
                                       <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="txtNota" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -146,33 +137,29 @@
                               </Group>
                           </Group>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <Component id="jlabelNamaKasir" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jtgl" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Component id="jlabelNamaKasir" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jPanel3" max="32767" attributes="0"/>
-                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel2" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bsimpan" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bbatal" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bkeluar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txttotal" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bsimpan" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bbatal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bkeluar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txttotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="14" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -204,7 +191,14 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="NOTA TOKO SEMBAKO YOGA"/>
+            <Property name="text" type="java.lang.String" value="WARUNG MAKAN CAK YOGA"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="0" left="0" right="0" top="2">
+                  <Color PropertyName="color" blue="0" green="ff" red="ff" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
@@ -254,14 +248,14 @@
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                 <TitledBorder title="DATA PELANGGAN">
                   <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                    <LineBorder thickness="2">
-                      <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                    <LineBorder roundedCorners="true" thickness="2">
+                      <Color PropertyName="color" blue="0" green="ff" red="ff" type="rgb"/>
                     </LineBorder>
                   </Border>
                   <Font PropertyName="font" name="Tahoma" size="12" style="1"/>
@@ -325,7 +319,7 @@
                           </Group>
                           <Component id="jScrollPane1" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="52" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -400,6 +394,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="bcaripel">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/gambar/search.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="CARI"/>
               </Properties>
               <Events>
@@ -447,14 +444,14 @@
         <Container class="javax.swing.JPanel" name="jPanel3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                 <TitledBorder title="DATA Barang">
                   <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                    <LineBorder thickness="2">
-                      <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                    <LineBorder roundedCorners="true" thickness="2">
+                      <Color PropertyName="color" blue="0" green="ff" red="ff" type="rgb"/>
                     </LineBorder>
                   </Border>
                   <Font PropertyName="font" name="Tahoma" size="12" style="1"/>
@@ -468,7 +465,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jLabel18" max="32767" attributes="0"/>
                           <Component id="jLabel14" alignment="1" max="32767" attributes="0"/>
@@ -496,7 +493,6 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btambah_barang" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
@@ -525,6 +521,7 @@
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                           <Component id="kuantitas" max="32767" attributes="0"/>
+                          <Component id="btambah_barang" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -672,6 +669,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="btambah_barang">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/gambar/create.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="TAMBAH"/>
               </Properties>
               <Events>
@@ -680,6 +680,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="bcaribarang">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/gambar/search.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="CARI"/>
               </Properties>
               <Events>
@@ -824,19 +827,26 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="text" type="java.lang.String" value="Jl. Menara, Ps. Minggu, Kota Jakarta Selatan  Telepon 081949452687 "/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="2" left="0" right="0" top="2">
+                  <Color PropertyName="color" blue="0" green="ff" red="ff" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel4">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                 <TitledBorder title="TRANSAKSI">
                   <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                    <LineBorder thickness="2">
-                      <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                    <LineBorder roundedCorners="true" thickness="2">
+                      <Color PropertyName="color" blue="0" green="ff" red="ff" type="rgb"/>
                     </LineBorder>
                   </Border>
                   <Font PropertyName="font" name="Tahoma" size="12" style="1"/>
@@ -872,7 +882,7 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
                       <Component id="jScrollPane3" min="-2" pref="124" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="bhapus" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -911,6 +921,9 @@
             </Container>
             <Component class="javax.swing.JButton" name="bhapus">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/gambar/delete.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="HAPUS"/>
               </Properties>
               <Events>
@@ -936,13 +949,16 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Barang yang sudah dibeli tidak bisa dikembalikan !"/>
+                <Property name="text" type="java.lang.String" value="Makanan/Minuman yang sudah dibeli tidak bisa dikembalikan !"/>
               </Properties>
             </Component>
           </SubComponents>
         </Container>
         <Component class="javax.swing.JButton" name="bsimpan">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/save.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="SIMPAN"/>
           </Properties>
           <Events>
@@ -951,6 +967,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bbatal">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/cancel.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="BATAL"/>
           </Properties>
           <Events>
@@ -959,6 +978,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bkeluar">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/exit.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="KELUAR"/>
           </Properties>
           <Events>

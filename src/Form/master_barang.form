@@ -36,7 +36,7 @@
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="99" type="rgb"/>
+          <Color blue="0" green="66" red="cc" type="rgb"/>
         </Property>
       </Properties>
 
@@ -53,8 +53,8 @@
                               <Component id="jLabel5" alignment="1" max="32767" attributes="0"/>
                               <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel4" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jLabel3" alignment="1" pref="147" max="32767" attributes="0"/>
-                              <Component id="jLabel2" alignment="1" pref="147" max="32767" attributes="0"/>
+                              <Component id="jLabel3" alignment="1" pref="129" max="32767" attributes="0"/>
+                              <Component id="jLabel2" alignment="1" pref="129" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -79,15 +79,15 @@
                                   <Component id="jenis_barang" min="-2" pref="185" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="bsimpan" max="32767" attributes="0"/>
                               <Component id="bubah" max="32767" attributes="0"/>
                               <Component id="bhapus" max="32767" attributes="0"/>
                               <Component id="bbatal" max="32767" attributes="0"/>
-                              <Component id="bkeluar" max="32767" attributes="0"/>
+                              <Component id="bkeluar" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
                   </Group>
@@ -264,6 +264,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bsimpan">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/save.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="SIMPAN"/>
           </Properties>
           <Events>
@@ -272,6 +275,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bubah">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/update.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="UBAH"/>
           </Properties>
           <Events>
@@ -280,6 +286,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bhapus">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/delete.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="HAPUS"/>
           </Properties>
           <Events>
@@ -288,6 +297,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bbatal">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/cancel.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="BATAL"/>
           </Properties>
           <Events>
@@ -296,6 +308,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bkeluar">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/exit.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="KELUAR"/>
           </Properties>
           <Events>
@@ -305,7 +320,7 @@
         <Container class="javax.swing.JPanel" name="jPanel1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -387,6 +402,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="bcari">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/gambar/search.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="CARI"/>
               </Properties>
               <Events>

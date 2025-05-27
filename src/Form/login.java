@@ -51,8 +51,9 @@ public class login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(204, 102, 0));
 
+        blogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/login.png"))); // NOI18N
         blogin.setText("LOGIN");
         blogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,6 +66,7 @@ public class login extends javax.swing.JFrame {
             }
         });
 
+        bdaftar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/pelanggan.png"))); // NOI18N
         bdaftar.setText("DAFTAR");
         bdaftar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

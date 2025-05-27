@@ -43,7 +43,7 @@
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="99" red="99" type="rgb"/>
+          <Color blue="0" green="66" red="cc" type="rgb"/>
         </Property>
       </Properties>
 
@@ -60,7 +60,7 @@
                               <Component id="jLabel5" max="32767" attributes="0"/>
                               <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel4" alignment="1" max="32767" attributes="0"/>
-                              <Component id="jLabel3" alignment="1" pref="100" max="32767" attributes="0"/>
+                              <Component id="jLabel3" alignment="1" max="32767" attributes="0"/>
                               <Component id="jLabel2" alignment="1" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
@@ -72,36 +72,44 @@
                               <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="rlaki" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                      <Component id="rperempuan" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Component id="id_pel" max="32767" attributes="0"/>
+                                                  <Component id="nama_pel" min="-2" pref="244" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="telp_pel" alignment="0" min="-2" pref="244" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                          <Component id="bsimpan" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="bubah" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="bhapus" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="bbatal" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="bkeluar" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                  <Component id="bsimpan" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="bubah" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                  <Component id="bhapus" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                  <Component id="bbatal" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="rlaki" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="rperempuan" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="id_pel" max="32767" attributes="0"/>
-                                          <Component id="nama_pel" min="-2" pref="244" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="telp_pel" alignment="0" min="-2" pref="244" max="-2" attributes="0"/>
-                                      <Component id="jScrollPane1" min="-2" pref="321" max="-2" attributes="0"/>
-                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" min="-2" pref="430" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="bkeluar" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                       </Group>
                       <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
                   </Group>
@@ -300,7 +308,7 @@
         <Component class="javax.swing.JRadioButton" name="rlaki">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="jk_pel"/>
@@ -317,7 +325,7 @@
         <Component class="javax.swing.JRadioButton" name="rperempuan">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="jk_pel"/>
@@ -333,6 +341,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bsimpan">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/save.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="SIMPAN"/>
           </Properties>
           <Events>
@@ -341,6 +352,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bubah">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/update.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="UBAH"/>
           </Properties>
           <Events>
@@ -349,6 +363,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bhapus">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/delete.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="HAPUS"/>
           </Properties>
           <Events>
@@ -357,6 +374,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bbatal">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/cancel.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="BATAL"/>
           </Properties>
           <Events>
@@ -365,6 +385,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="bkeluar">
           <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/gambar/exit.png"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="KELUAR"/>
           </Properties>
           <Events>
@@ -374,7 +397,7 @@
         <Container class="javax.swing.JPanel" name="jPanel1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="0" green="66" red="cc" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
@@ -459,6 +482,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="bcari">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/gambar/search.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="CARI"/>
               </Properties>
               <Events>

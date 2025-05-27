@@ -71,7 +71,7 @@ public class popup_barang extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(204, 102, 0));
 
         table_barang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -97,6 +97,7 @@ public class popup_barang extends javax.swing.JFrame {
             }
         });
 
+        bcari.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/search.png"))); // NOI18N
         bcari.setText("CARI");
         bcari.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

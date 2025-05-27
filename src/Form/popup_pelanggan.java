@@ -27,6 +27,7 @@ public class popup_pelanggan extends javax.swing.JFrame {
      */
     public popup_pelanggan() {
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         datatable();
     }
 

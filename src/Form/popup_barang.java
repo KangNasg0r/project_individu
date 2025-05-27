@@ -27,6 +27,7 @@ public class popup_barang extends javax.swing.JFrame {
      */
     public popup_barang() {
         initComponents();
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         datatable();
     }
 

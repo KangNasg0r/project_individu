@@ -35,7 +35,8 @@ public class menu_utama extends javax.swing.JFrame {
         m_kasir = new javax.swing.JMenuItem();
         m_pelanggan = new javax.swing.JMenuItem();
         master_barang = new javax.swing.JMenuItem();
-        nota = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -87,16 +88,21 @@ public class menu_utama extends javax.swing.JFrame {
         });
         jMenu1.add(master_barang);
 
-        nota.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        nota.setText("Nota");
-        nota.addActionListener(new java.awt.event.ActionListener() {
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Transaksi");
+        jMenu2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+
+        jMenuItem1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jMenuItem1.setText("Nota");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                notaActionPerformed(evt);
+                jMenuItem1ActionPerformed(evt);
             }
         });
-        jMenu1.add(nota);
+        jMenu2.add(jMenuItem1);
 
-        jMenuBar1.add(jMenu1);
+        jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
 
@@ -132,11 +138,11 @@ public class menu_utama extends javax.swing.JFrame {
         mb.setLocationRelativeTo(null);
     }//GEN-LAST:event_master_barangActionPerformed
 
-    private void notaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notaActionPerformed
-     nota mb = new nota();
-        mb.setVisible(true);
-        mb.setLocationRelativeTo(null);
-    }//GEN-LAST:event_notaActionPerformed
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        nota nota = new nota();
+        nota.setVisible(true);
+        nota.setLocationRelativeTo(null);
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -178,11 +184,12 @@ public class menu_utama extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel2;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JMenuItem m_kasir;
     private javax.swing.JMenuItem m_pelanggan;
     private javax.swing.JMenuItem master_barang;
-    private javax.swing.JMenuItem nota;
     // End of variables declaration//GEN-END:variables
 }

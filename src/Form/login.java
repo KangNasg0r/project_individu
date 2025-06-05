@@ -164,7 +164,7 @@ public class login extends javax.swing.JFrame {
                 sett.setVisible(true);
                 sett.setLocationRelativeTo(null);
             } else {
-                JOptionPane.showMessageDialog(null, "ID Teknisi atau Sandi salah");
+                JOptionPane.showMessageDialog(null, "ID Kasir atau Sandi salah");
             }
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Gagal Login: " + e);
@@ -179,10 +179,10 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_bloginKeyPressed
 
     private void bdaftarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bdaftarActionPerformed
-        //daftar rf = new daftar();
-        //rf.setVisible(true);
-        //rf.setLocationRelativeTo(null);
-        //this.dispose();
+        master_barang d = new master_barang();
+        d.setVisible(true);
+        d.setLocationRelativeTo(null);
+        this.dispose();
     }//GEN-LAST:event_bdaftarActionPerformed
 
     private void passwordKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_passwordKeyPressed

@@ -9,8 +9,12 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import javax.swing.table.DefaultTableModel;
 import koneksi.koneksi;
+import net.sf.jasperreports.engine.JasperFillManager;
+import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.view.JasperViewer;
 
 /**
  *
@@ -123,6 +127,18 @@ public class nota extends javax.swing.JFrame {
             total += amount;
         }
         txttotal.setText(Integer.toString(total));
+    }
+    
+    public void cetak() {
+        try{
+            String path="./src/report/nota.jasper";
+            HashMap parameter = new HashMap();
+            parameter.put("id_nota",txtNota.getText());
+            JasperPrint print = JasperFillManager.fillReport(path,parameter,conn);
+            JasperViewer.viewReport(print,false);
+        }catch(Exception ex){
+            JOptionPane.showMessageDialog(rootPane,"Dokumen Tidak Ada" +ex);   
+        }
     }
 
     /**
@@ -332,7 +348,7 @@ public class nota extends javax.swing.JFrame {
         );
 
         jPanel3.setBackground(new java.awt.Color(204, 102, 0));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 0), 2, true), "DATA Barang", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 0), 2, true), "DATA BARANG", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 12), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -375,6 +391,11 @@ public class nota extends javax.swing.JFrame {
         kuantitas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 kuantitasActionPerformed(evt);
+            }
+        });
+        kuantitas.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                kuantitasKeyReleased(evt);
             }
         });
 
@@ -563,7 +584,7 @@ public class nota extends javax.swing.JFrame {
                 {null, null, null, null}
             },
             new String [] {
-                "Banyaknya", "Nama Barang", "Harga Satuan", "Jumlah Harga"
+                "-", "-", "-", "-"
             }
         ));
         jScrollPane3.setViewportView(tbl_transaksi);
@@ -718,25 +739,24 @@ public class nota extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jtgl, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
                             .addComponent(jlabelNamaKasir, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                            .addComponent(bsimpan)
-                            .addGap(36, 36, 36)
-                            .addComponent(bbatal)
-                            .addGap(38, 38, 38)
-                            .addComponent(bkeluar)
-                            .addGap(241, 241, 241)
-                            .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(bsimpan)
+                        .addGap(36, 36, 36)
+                        .addComponent(bbatal)
+                        .addGap(38, 38, 38)
+                        .addComponent(bkeluar)
+                        .addGap(241, 241, 241)
+                        .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel22)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txttotal, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jLabel22)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(txttotal, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -920,6 +940,7 @@ public class nota extends javax.swing.JFrame {
                 stat2.executeUpdate();
             }
             JOptionPane.showMessageDialog(null, "Data berhasil disimpan");
+            cetak();
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Data gagal disimpan" + e);
         }
@@ -933,6 +954,17 @@ public class nota extends javax.swing.JFrame {
         aktif();
         autonumber();
     }//GEN-LAST:event_bbatalActionPerformed
+
+    private void kuantitasKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_kuantitasKeyReleased
+       try{
+        int xhj = Integer.parseInt(harga_jual.getText());
+        int xqty = Integer.parseInt(kuantitas.getText());
+        int xjml = xhj * xqty;
+        sub_total.setText(String.valueOf(xjml));
+       } catch  (NumberFormatException e) {
+       sub_total.setText("0");
+       }
+    }//GEN-LAST:event_kuantitasKeyReleased
 
     /**
      * @param args the command line arguments
